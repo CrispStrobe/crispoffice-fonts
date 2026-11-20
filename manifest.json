@@ -1,0 +1,522 @@
+{
+  "version": 1,
+  "source": "https://github.com/google/fonts/tree/869789e84da92782c144d83d69b64cec54905b5f",
+  "packs": {
+    "core": {
+      "files": [
+        {
+          "family": "Carlito",
+          "weight": 400,
+          "italic": false,
+          "file": "Carlito-Regular.ttf",
+          "bytes": 628056,
+          "sha256": "928f6b7643f165a130d8edc8d3a0b4e87887650ac418ad11f6db135e416a8740",
+          "aliases": [
+            "Calibri"
+          ]
+        },
+        {
+          "family": "Carlito",
+          "weight": 700,
+          "italic": false,
+          "file": "Carlito-Bold.ttf",
+          "bytes": 682492,
+          "sha256": "516db87363ae8304c6319458a6e7f0fa326eb5e403482eba6dabff0183fc6a58",
+          "aliases": [
+            "Calibri"
+          ]
+        },
+        {
+          "family": "Carlito",
+          "weight": 400,
+          "italic": true,
+          "file": "Carlito-Italic.ttf",
+          "bytes": 615260,
+          "sha256": "00c2c8b1a74b4740a30c1fa7ab0705862e570da57c9b3ef57c76b9c0b5551431",
+          "aliases": [
+            "Calibri"
+          ]
+        },
+        {
+          "family": "Carlito",
+          "weight": 700,
+          "italic": true,
+          "file": "Carlito-BoldItalic.ttf",
+          "bytes": 808532,
+          "sha256": "248f77203fefcf0a509327bf690bbdd451487b0eeeb81ca3ffa65d76af34dc0b",
+          "aliases": [
+            "Calibri"
+          ]
+        },
+        {
+          "family": "Tinos",
+          "weight": 400,
+          "italic": false,
+          "file": "Tinos-Regular.ttf",
+          "bytes": 521612,
+          "sha256": "dc88b058f3e376f5153bee91762aa6ca2ab9404c427f4063258b23f0a77976a7",
+          "aliases": [
+            "Times New Roman",
+            "Times"
+          ]
+        },
+        {
+          "family": "Tinos",
+          "weight": 700,
+          "italic": false,
+          "file": "Tinos-Bold.ttf",
+          "bytes": 597904,
+          "sha256": "d606abe7f32bce838ef95a598923a59231a764d727ec4cf407dc668260e13bb5",
+          "aliases": [
+            "Times New Roman",
+            "Times"
+          ]
+        },
+        {
+          "family": "Tinos",
+          "weight": 400,
+          "italic": true,
+          "file": "Tinos-Italic.ttf",
+          "bytes": 565040,
+          "sha256": "116b26b0e5e787fa17e7b0c961eb3a1d45aa5cc5c78e70283c93e6af8316b89d",
+          "aliases": [
+            "Times New Roman",
+            "Times"
+          ]
+        },
+        {
+          "family": "Tinos",
+          "weight": 700,
+          "italic": true,
+          "file": "Tinos-BoldItalic.ttf",
+          "bytes": 579000,
+          "sha256": "d89bffe850b837b8d61a28e99e66113f47a5462d778762ae44e415c58e571161",
+          "aliases": [
+            "Times New Roman",
+            "Times"
+          ]
+        },
+        {
+          "family": "Cousine",
+          "weight": 400,
+          "italic": false,
+          "file": "Cousine-Regular.ttf",
+          "bytes": 296880,
+          "sha256": "7611700cf249faa225248dbf906c5c0896787ce308a22cf071086665b0c28913",
+          "aliases": [
+            "Courier New",
+            "Courier"
+          ]
+        },
+        {
+          "family": "Cousine",
+          "weight": 700,
+          "italic": false,
+          "file": "Cousine-Bold.ttf",
+          "bytes": 298072,
+          "sha256": "161a6a1e2c854cfcf04b0ce5b3212a5e2b1e21f2ed3fe06612c60eaf186dd792",
+          "aliases": [
+            "Courier New",
+            "Courier"
+          ]
+        },
+        {
+          "family": "Cousine",
+          "weight": 400,
+          "italic": true,
+          "file": "Cousine-Italic.ttf",
+          "bytes": 306904,
+          "sha256": "9a5261454f8be560b816212cc126305d3908cd231444b8b6265d8e243529c62c",
+          "aliases": [
+            "Courier New",
+            "Courier"
+          ]
+        },
+        {
+          "family": "Cousine",
+          "weight": 700,
+          "italic": true,
+          "file": "Cousine-BoldItalic.ttf",
+          "bytes": 308316,
+          "sha256": "71d2188d71d5f866c0a173ad948374f944172eba6f0b04a08b2c06d1f92ebe57",
+          "aliases": [
+            "Courier New",
+            "Courier"
+          ]
+        },
+        {
+          "family": "Caladea",
+          "weight": 400,
+          "italic": false,
+          "file": "Caladea-Regular.ttf",
+          "bytes": 81424,
+          "sha256": "6c6e95aeec1ece1bfb5243f4c63a9e8d82d14a0b220fc349a7f886374eaa5054",
+          "aliases": [
+            "Cambria"
+          ]
+        },
+        {
+          "family": "Caladea",
+          "weight": 700,
+          "italic": false,
+          "file": "Caladea-Bold.ttf",
+          "bytes": 84328,
+          "sha256": "6ab7e1c3b2a88350dc283a6ebed227300be49a93f845078f2ee1147bd6bc362c",
+          "aliases": [
+            "Cambria"
+          ]
+        },
+        {
+          "family": "Caladea",
+          "weight": 400,
+          "italic": true,
+          "file": "Caladea-Italic.ttf",
+          "bytes": 83608,
+          "sha256": "5b4e53e8bbfd4cc328704601f35ffc8cd0c8591bb0b0fdb411643fcfa91376db",
+          "aliases": [
+            "Cambria"
+          ]
+        },
+        {
+          "family": "Caladea",
+          "weight": 700,
+          "italic": true,
+          "file": "Caladea-BoldItalic.ttf",
+          "bytes": 83172,
+          "sha256": "d7a5267006d05191d363f75b5224aa095b686c23d771481f34210a6ac91655dd",
+          "aliases": [
+            "Cambria"
+          ]
+        },
+        {
+          "family": "Arimo",
+          "weight": 400,
+          "italic": false,
+          "file": "Arimo-Regular.ttf",
+          "bytes": 321468,
+          "sha256": "5d13c834ee73255bec004227c50d2e8bdc46379e3cb89ec566d775de4240a02e",
+          "aliases": []
+        },
+        {
+          "family": "Arimo",
+          "weight": 700,
+          "italic": false,
+          "file": "Arimo-Bold.ttf",
+          "bytes": 322032,
+          "sha256": "7289a8566c88e21c30b9a621b2e233c7eca4c56b980723ccb83257b0fa50d0ff",
+          "aliases": []
+        },
+        {
+          "family": "Arimo",
+          "weight": 400,
+          "italic": true,
+          "file": "Arimo-Italic.ttf",
+          "bytes": 345504,
+          "sha256": "d6f04e1c2712f0d6f629ef1e51425a30c567e82827b1511c3bda8a8b4d9a7167",
+          "aliases": []
+        },
+        {
+          "family": "Arimo",
+          "weight": 700,
+          "italic": true,
+          "file": "Arimo-BoldItalic.ttf",
+          "bytes": 346884,
+          "sha256": "13e509cf2e26c3c5295a131f43c6727a975aff071bf5eee7efeaa16c228a3727",
+          "aliases": []
+        }
+      ]
+    },
+    "visual": {
+      "files": [
+        {
+          "family": "Lato",
+          "weight": 400,
+          "italic": false,
+          "file": "Lato-Regular.ttf",
+          "bytes": 656512,
+          "sha256": "46347e53055c78cfe405e1105d040307b5359b9c2eef3dab17e93f4778e1cb7a",
+          "aliases": []
+        },
+        {
+          "family": "Lato",
+          "weight": 700,
+          "italic": false,
+          "file": "Lato-Bold.ttf",
+          "bytes": 656496,
+          "sha256": "61217d58349064b3dd3fe4cda07324536c4cd4d86184fc9d1c5fc0349caf392d",
+          "aliases": []
+        },
+        {
+          "family": "Lato",
+          "weight": 400,
+          "italic": true,
+          "file": "Lato-Italic.ttf",
+          "bytes": 722844,
+          "sha256": "da14d501ee6d1c4bd51f9bf0afa8da2ccd07f66bf11af0b501fbc8b413e5465d",
+          "aliases": []
+        },
+        {
+          "family": "Lato",
+          "weight": 700,
+          "italic": true,
+          "file": "Lato-BoldItalic.ttf",
+          "bytes": 698292,
+          "sha256": "6c0fe42d020d2d0a8d9c0b7e36c888da3ebc719a973b52169bc44d9845a5fe3d",
+          "aliases": []
+        },
+        {
+          "family": "PTSans",
+          "weight": 400,
+          "italic": false,
+          "file": "PTSans-Regular.ttf",
+          "bytes": 442132,
+          "sha256": "ed6cc28ab0430a114b59db9d0dc52bdb4c49ac95374e5815490bf99ded7c47a1",
+          "aliases": []
+        },
+        {
+          "family": "PTSans",
+          "weight": 700,
+          "italic": false,
+          "file": "PTSans-Bold.ttf",
+          "bytes": 469396,
+          "sha256": "0f2b6cc6dd91888aaaa82c3ead5f597cf4a831a0a1aa525897885f19f1e23309",
+          "aliases": []
+        },
+        {
+          "family": "PTSans",
+          "weight": 400,
+          "italic": true,
+          "file": "PTSans-Italic.ttf",
+          "bytes": 435596,
+          "sha256": "5472fcb0158fbf770ff94fe16171c0140e306745da58153ea049631116e89396",
+          "aliases": []
+        },
+        {
+          "family": "PTSans",
+          "weight": 700,
+          "italic": true,
+          "file": "PTSans-BoldItalic.ttf",
+          "bytes": 374336,
+          "sha256": "743c8478552bdecd79f7a4056215d8d6b180aa95ed7c18b9a00b4852d70409eb",
+          "aliases": []
+        },
+        {
+          "family": "CourierPrime",
+          "weight": 400,
+          "italic": false,
+          "file": "CourierPrime-Regular.ttf",
+          "bytes": 71092,
+          "sha256": "f145ccd0bfc92b2ec60a3cc831a82c253abf90f68309d8fbb837aa0aae88c389",
+          "aliases": []
+        },
+        {
+          "family": "CourierPrime",
+          "weight": 700,
+          "italic": false,
+          "file": "CourierPrime-Bold.ttf",
+          "bytes": 72768,
+          "sha256": "43efdd179b85bb20a28852e6a182378e52f61f988f4e6fb72768365af3ee2a39",
+          "aliases": []
+        },
+        {
+          "family": "CourierPrime",
+          "weight": 400,
+          "italic": true,
+          "file": "CourierPrime-Italic.ttf",
+          "bytes": 79888,
+          "sha256": "f8d2ee474dc4eaad9b99c73fc2288d5b9988e2d4e11866dc051fda512e147f9c",
+          "aliases": []
+        },
+        {
+          "family": "CourierPrime",
+          "weight": 700,
+          "italic": true,
+          "file": "CourierPrime-BoldItalic.ttf",
+          "bytes": 80764,
+          "sha256": "274163808d393eef41d9ff5cbc6af206131cbe68aa91344034ea7e48dab04ca7",
+          "aliases": []
+        },
+        {
+          "family": "Inter",
+          "weight": 400,
+          "italic": false,
+          "file": "Inter-Regular.ttf",
+          "bytes": 341420,
+          "sha256": "125c5351c63f3436780c91153eed70f0e360b2f5a6b4c09b07b8fd947d757796",
+          "aliases": []
+        },
+        {
+          "family": "Inter",
+          "weight": 700,
+          "italic": false,
+          "file": "Inter-Bold.ttf",
+          "bytes": 343100,
+          "sha256": "af16fcd5c209e50d7ea32a5858f1ba41cb0a122dba24c6df67be5abb7495d2e8",
+          "aliases": []
+        },
+        {
+          "family": "Inter",
+          "weight": 400,
+          "italic": true,
+          "file": "Inter-Italic.ttf",
+          "bytes": 344808,
+          "sha256": "319e982e4dc3b70724cbedaca02383291e7f577fd2513a5902e0fd7ee55993f2",
+          "aliases": []
+        },
+        {
+          "family": "Inter",
+          "weight": 700,
+          "italic": true,
+          "file": "Inter-BoldItalic.ttf",
+          "bytes": 346692,
+          "sha256": "ff02c7b536e940357499d464faaa0b3f042a0ddd1b5b8098f67e62449c780718",
+          "aliases": []
+        },
+        {
+          "family": "DM Sans",
+          "weight": 400,
+          "italic": false,
+          "file": "DMSans-Regular.ttf",
+          "bytes": 56800,
+          "sha256": "1cbef92957ca9755bee6ab19a15e3171462135a93a334f8824927b2657f94c08",
+          "aliases": []
+        },
+        {
+          "family": "DM Sans",
+          "weight": 700,
+          "italic": false,
+          "file": "DMSans-Bold.ttf",
+          "bytes": 56700,
+          "sha256": "ed3cab887c0f7bb206cafb9ec09fa0fa05fb2e4b0faa4af4406233b41f0f4f16",
+          "aliases": []
+        },
+        {
+          "family": "DM Sans",
+          "weight": 400,
+          "italic": true,
+          "file": "DMSans-Italic.ttf",
+          "bytes": 61416,
+          "sha256": "d37539bb169bab478867dfc811e52df53ae464045295c77a3d45cf0ea535a503",
+          "aliases": []
+        },
+        {
+          "family": "DM Sans",
+          "weight": 700,
+          "italic": true,
+          "file": "DMSans-BoldItalic.ttf",
+          "bytes": 61312,
+          "sha256": "60fcd4c6d2ee26bf0057ecdceaafbcf4113fe78e22e1a2c8e1c17ca91e651692",
+          "aliases": []
+        },
+        {
+          "family": "Open Sans",
+          "weight": 400,
+          "italic": false,
+          "file": "OpenSans-Regular.ttf",
+          "bytes": 130508,
+          "sha256": "10864c73ecc8fe9155ecf38f5788d2da1008dfe67dba1a72405a4ac50e615894",
+          "aliases": []
+        },
+        {
+          "family": "Open Sans",
+          "weight": 700,
+          "italic": false,
+          "file": "OpenSans-Bold.ttf",
+          "bytes": 130504,
+          "sha256": "d5a61c2a8adae04874f968691a9b0a542e9cfd93e141a6daf3342b77f491a6d5",
+          "aliases": []
+        },
+        {
+          "family": "Open Sans",
+          "weight": 400,
+          "italic": true,
+          "file": "OpenSans-Italic.ttf",
+          "bytes": 136048,
+          "sha256": "b3ca01562ee74a263bca7e56bae03e04afddfbde7f3c69ce16dede978159211c",
+          "aliases": []
+        },
+        {
+          "family": "Open Sans",
+          "weight": 700,
+          "italic": true,
+          "file": "OpenSans-BoldItalic.ttf",
+          "bytes": 135764,
+          "sha256": "4558703f4829ac5b5a6eb4754478b5c50e1bfb8ce9967ed5045ee7c6b2e3c315",
+          "aliases": []
+        },
+        {
+          "family": "Noto Sans",
+          "weight": 400,
+          "italic": false,
+          "file": "NotoSans-Regular.ttf",
+          "bytes": 646184,
+          "sha256": "6ba979360405f6a24379894fdc0ac16ecc2a8d945520f4741a0600416e699e74",
+          "aliases": []
+        },
+        {
+          "family": "Noto Sans",
+          "weight": 700,
+          "italic": false,
+          "file": "NotoSans-Bold.ttf",
+          "bytes": 648316,
+          "sha256": "8b06eeeeb4e403c6d12da80753d3c42cf65f3faa4ffdf42d0606f2dfc9455a03",
+          "aliases": []
+        },
+        {
+          "family": "Noto Sans",
+          "weight": 400,
+          "italic": true,
+          "file": "NotoSans-Italic.ttf",
+          "bytes": 663524,
+          "sha256": "cb2a8fc87a9eea1ef8d4b2cfc532365498f204cec9f3c33e4c9a544882f88c69",
+          "aliases": []
+        },
+        {
+          "family": "Noto Sans",
+          "weight": 700,
+          "italic": true,
+          "file": "NotoSans-BoldItalic.ttf",
+          "bytes": 665500,
+          "sha256": "d77e3dcb2932ca68d4365c287aa18a7ef9a425dbaf878fa945cf9a381dbbc3f9",
+          "aliases": []
+        },
+        {
+          "family": "Source Serif 4",
+          "weight": 400,
+          "italic": false,
+          "file": "SourceSerif4-Regular.ttf",
+          "bytes": 329864,
+          "sha256": "e51e824fe3fb75dfa4c39bac69d79210d80612fbaf2942e3eb10c5902c10b939",
+          "aliases": []
+        },
+        {
+          "family": "Source Serif 4",
+          "weight": 700,
+          "italic": false,
+          "file": "SourceSerif4-Bold.ttf",
+          "bytes": 330120,
+          "sha256": "041f63778cac9b9222bc23ca24b70269c2561a24bc9eb0ca496a59245f47344f",
+          "aliases": []
+        },
+        {
+          "family": "Source Serif 4",
+          "weight": 400,
+          "italic": true,
+          "file": "SourceSerif4-Italic.ttf",
+          "bytes": 207924,
+          "sha256": "38aca5a93dc5745b967c9d26c51231d07a179ddd2b98926dd512b2e73543dd9a",
+          "aliases": []
+        },
+        {
+          "family": "Source Serif 4",
+          "weight": 700,
+          "italic": true,
+          "file": "SourceSerif4-BoldItalic.ttf",
+          "bytes": 207996,
+          "sha256": "cdd42513bb5fd14dc869cf5f2d5703b364532ecc2bd50ac1bb9e55e0ad2cbcc8",
+          "aliases": []
+        }
+      ]
+    }
+  }
+}
