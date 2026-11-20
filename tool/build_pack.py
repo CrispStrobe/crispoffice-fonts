@@ -123,7 +123,7 @@ def build() -> None:
                 dest = DIST / ("core" if family in {"Carlito", "Tinos", "Cousine", "Caladea"} else "visual") / f"{family}-{style}.ttf"
                 dest.parent.mkdir(parents=True, exist_ok=True)
                 dest.write_bytes(data)
-                entry = {"family": family, "weight": weight, "italic": italic, "file": dest.name, "bytes": dest.stat().st_size, "sha256": hashlib.sha256(dest.read_bytes()).hexdigest(), "aliases": list(aliases)}
+                entry = {"family": DISPLAY.get(family, family), "weight": weight, "italic": italic, "file": dest.name, "bytes": dest.stat().st_size, "sha256": hashlib.sha256(dest.read_bytes()).hexdigest(), "aliases": list(aliases)}
                 (core_files if dest.parent.name == "core" else visual_files).append(entry)
             if family == "Tinos":
                 with urllib.request.urlopen(
