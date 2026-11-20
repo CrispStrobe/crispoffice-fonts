@@ -33,12 +33,12 @@ STATIC = {
     "Cousine": ("ofl/cousine", ("Courier New", "Courier")),
     "Caladea": ("ofl/caladea", ("Cambria",)),
     "Lato": ("ofl/lato", ()),
-    "PTSans": ("ofl/ptsans", ()),
+    "PTSans": ("ofl/ptsans", ("Tahoma",)),
     "CourierPrime": ("ofl/courierprime", ()),
 }
 VARIABLE = {
-    "Arimo": ("ofl/arimo", "Arimo", "Arimo-Italic", {"wght": (400, 700)}, ()),
-    "Inter": ("ofl/inter", "Inter", "Inter-Italic", {"wght": (400, 700), "opsz": 14}, ()),
+    "Arimo": ("ofl/arimo", "Arimo", "Arimo-Italic", {"wght": (400, 700)}, ("Microsoft Sans Serif",)),
+    "Inter": ("ofl/inter", "Inter", "Inter-Italic", {"wght": (400, 700), "opsz": 14}, ("Aptos",)),
     "DMSans": ("ofl/dmsans", "DMSans", "DMSans-Italic", {"wght": (400, 700), "opsz": 14}, ()),
     "OpenSans": ("ofl/opensans", "OpenSans", "OpenSans-Italic", {"wght": (400, 700), "wdth": 100}, ()),
     "NotoSans": ("ofl/notosans", "NotoSans", "NotoSans-Italic", {"wght": (400, 700), "wdth": 100}, ()),
