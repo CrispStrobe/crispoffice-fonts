@@ -117,14 +117,12 @@ def build() -> None:
                 if family == "PTSans":
                     remote = f"{directory}/PT_Sans-Web-{style}.ttf"
                 data = fetch(remote)
-                src = source_dir / f"{family}-{style}.ttf"
-                src.parent.mkdir(parents=True, exist_ok=True)
-                src.write_bytes(data)
-                font = TTFont(src)
-                display = DISPLAY.get(family, family)
-                set_names(font, display, weight, italic)
+                # Static upstream faces are redistributed byte-for-byte. Several
+                # of them carry a Reserved Font Name; that licence permits
+                # bundling the original, not publishing a renamed derivative.
                 dest = DIST / ("core" if family in {"Carlito", "Tinos", "Cousine", "Caladea"} else "visual") / f"{family}-{style}.ttf"
-                save(font, dest)
+                dest.parent.mkdir(parents=True, exist_ok=True)
+                dest.write_bytes(data)
                 entry = {"family": family, "weight": weight, "italic": italic, "file": dest.name, "bytes": dest.stat().st_size, "sha256": hashlib.sha256(dest.read_bytes()).hexdigest(), "aliases": list(aliases)}
                 (core_files if dest.parent.name == "core" else visual_files).append(entry)
             if family == "Tinos":

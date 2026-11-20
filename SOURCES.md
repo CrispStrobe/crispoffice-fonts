@@ -7,3 +7,9 @@
 
 Variable families are instantiated at the weights and optical sizes listed in
 `tool/build_pack.py`. No glyph outlines are modified.
+
+Static upstream files (Carlito, Tinos, Cousine, Caladea, Lato, PT Sans and
+Courier Prime) are redistributed byte-for-byte. Variable families are
+instantiated and standard style names are written; Arimo, Inter, DM Sans,
+Open Sans, Noto Sans and Source Serif 4 do not carry a Reserved Font Name.
+Carlito, Lato and PT Sans carry reserved names and are never modified.
